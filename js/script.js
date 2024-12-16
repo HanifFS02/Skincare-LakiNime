@@ -3,8 +3,8 @@ const navbarNav = document.querySelector(".navbar-nav");
 
 // Hamburger Menu Diklik
 document.querySelector("#hamburger-menu").onclick = () => {
-  event.preventDefault();
   navbarNav.classList.toggle("active");
+  preventDefault();
 };
 
 // // // Stay di tempat pas klik hamburger menu
